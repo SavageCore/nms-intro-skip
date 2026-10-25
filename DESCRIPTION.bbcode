@@ -1,0 +1,29 @@
+[center][size=5][b]Intro Skip[/b][/size]
+Skips the No Man's Sky startup logos.[/center]
+
+[b]What it does[/b]
+The logos are replaced with a black screen while the game keeps loading
+behind it. Once loading finishes you reach the mod-warning dialog (if you
+run mods) and then the title. Pair with [url=https://www.nexusmods.com/games/nomanssky/mods/4707/]Mod Warning Skip[/url] to go straight to the Main Menu.
+
+[b]Toggles[/b]
+Edit [b]mod.toml[/b] in the mod folder under [b]GAMEDATA/MODS/Intro Skip[/b]:
+[list]
+[*][b]logo_texture[/b] - skips the logo texture loads[/*]
+[*][b]logo_wait[/b] - skips the splash wait branch[/*]
+[/list]
+
+[b]Requires:[/b] the [b][url=https://www.nexusmods.com/games/nomanssky/mods/4700]Nozavolochen Framework[/url][/b] (provides the shared host DLL - spec-driven, no closed-source loaders).
+
+[b]Install[/b]
+Install like any other mod into [b]GAMEDATA/MODS[/b] so you end up with [b]GAMEDATA/MODS/Intro Skip/mod.toml[/b]. The Nozavolochen[b] [/b]framework provides the host DLL. After launch [i]Binaries/nozavolochen.log[/i] shows what was applied or any errors.
+
+[b]Compatibility[/b]
+[list]
+[*]Runtime memory patches applied by the host DLL at boot. No game files
+are modified, so there is nothing to merge and nothing to conflict with[/*]
+[*]Patterns are checked before patching - a game update that shifts them is
+reported in the log instead of misbehaving[/*]
+[/list]
+
+Source: [url=https://github.com/SavageCore/nms-intro-skip]https://github.com/SavageCore/nms-intro-skip[/url]
