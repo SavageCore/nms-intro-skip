@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Regenerate the Nexus page images from the source screenshot.
 
-  assets/header-intro-skip-1300x372.jpg      (logo crop + title overlay, banner)
-  assets/gallery-intro-skip-1920x1080.jpg    (screenshot with red X, gallery)
+  assets/header-1300x372.jpg      (logo crop + title overlay, banner)
+  assets/gallery-1920x1080.jpg    (screenshot with red X, gallery)
 
 The header is a band cropped around the centered Hello Games logo, with
 the title top-left over a darkened left edge (same layout as the
@@ -18,8 +18,8 @@ from PIL import Image, ImageDraw, ImageFont
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "intro.jpg")
-HDR = os.path.join(HERE, "header-intro-skip-1300x372.jpg")
-GALLERY = os.path.join(HERE, "gallery-intro-skip-1920x1080.jpg")
+HDR = os.path.join(HERE, "header-1300x372.jpg")
+GALLERY = os.path.join(HERE, "gallery-1920x1080.jpg")
 
 # In-game heading typeface, vendored (SIL OFL 1.1):
 # https://github.com/NMSCD/No-Mans-Sky-Universal-Font
