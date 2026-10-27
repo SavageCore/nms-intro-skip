@@ -6,10 +6,6 @@ label = "Intro Skip"
 description = "Skips the No Man's Sky startup logos."
 enabled = true
 
-[features]
-logo_texture = true
-logo_wait = true
-
 [[setting]]
 id = "logo-texture"
 kind = "bool"
@@ -26,14 +22,12 @@ default = true
 
 [[patch]]
 id = "logo-texture"
-feature = "logo_texture"
 op = "force-branch"
 pattern = "48 3b df 0f 84 ?? ?? ?? ?? 45 33 ed 44 38 2b 0f 84 ?? ?? ?? ??"
 offset = 15
 
 [[patch]]
 id = "logo-wait"
-feature = "logo_wait"
 op = "write-bytes"
 pattern = "83 f9 05 74 ?? 83 f9 06 74 ?? 44 38 ?? ?? ?? ?? ?? 0f 84 ?? ?? ?? ??"
 offset = 17
