@@ -14,14 +14,14 @@ logo_wait = true
 id = "logo-texture"
 kind = "bool"
 label = "Skip logo textures"
-description = "Skip the startup logo loads. Off restores vanilla."
+description = "Skip the startup logo loads."
 default = true
 
 [[setting]]
 id = "logo-wait"
 kind = "bool"
 label = "Skip splash wait"
-description = "Skip the splash-screen wait branch. Off restores vanilla."
+description = "Skip the splash-screen wait branch."
 default = true
 
 [[patch]]
