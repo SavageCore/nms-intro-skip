@@ -2,6 +2,8 @@
 [mod]
 id = "eu.savagecore.intro_skip"
 version = "0.1.0"
+label = "Intro Skip"
+description = "Skips the No Man's Sky startup logos."
 enabled = true
 
 [features]
