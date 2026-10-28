@@ -6,6 +6,62 @@ label = "Intro Skip"
 description = "Skips the No Man's Sky startup logos."
 enabled = true
 
+[[mod.text]]
+lang = "nl"
+description = "Slaat de opstartlogo's van No Man's Sky over."
+
+[[mod.text]]
+lang = "de"
+description = "Überspringt die Start-Logos von No Man's Sky."
+
+[[mod.text]]
+lang = "fr"
+description = "Ignore les logos de démarrage de No Man's Sky."
+
+[[mod.text]]
+lang = "it"
+description = "Salta i loghi di avvio di No Man's Sky."
+
+[[mod.text]]
+lang = "es"
+description = "Omite los logotipos de inicio de No Man's Sky."
+
+[[mod.text]]
+lang = "es-419"
+description = "Omite los logotipos de inicio de No Man's Sky."
+
+[[mod.text]]
+lang = "ru"
+description = "Пропускает стартовые логотипы No Man's Sky."
+
+[[mod.text]]
+lang = "pl"
+description = "Pomija loga startowe No Man's Sky."
+
+[[mod.text]]
+lang = "pt"
+description = "Ignora os logótipos de arranque do No Man's Sky."
+
+[[mod.text]]
+lang = "pt-BR"
+description = "Pula os logotipos de inicialização do No Man's Sky."
+
+[[mod.text]]
+lang = "ja"
+description = "No Man's Skyの起動ロゴをスキップします。"
+
+[[mod.text]]
+lang = "zh"
+description = "跳过No Man's Sky的启动徽标。"
+
+[[mod.text]]
+lang = "zh-Hant"
+description = "跳過No Man's Sky的啟動徽標。"
+
+[[mod.text]]
+lang = "ko"
+description = "No Man's Sky 시작 로고를 건너뜁니다."
+
 [[setting]]
 id = "logo-texture"
 kind = "bool"
@@ -13,12 +69,152 @@ label = "Skip logo textures"
 description = "Skip the startup logo loads."
 default = true
 
+[[setting.text]]
+lang = "nl"
+label = "Sla logo-texturen over"
+description = "Slaat het laden van de opstartlogo's over."
+
+[[setting.text]]
+lang = "de"
+label = "Logo-Texturen überspringen"
+description = "Überspringt das Laden der Start-Logos."
+
+[[setting.text]]
+lang = "fr"
+label = "Ignorer les textures des logos"
+description = "Ignore le chargement des logos de démarrage."
+
+[[setting.text]]
+lang = "it"
+label = "Salta le texture dei loghi"
+description = "Salta il caricamento dei loghi di avvio."
+
+[[setting.text]]
+lang = "es"
+label = "Omitir texturas de logotipos"
+description = "Omite la carga de los logotipos de inicio."
+
+[[setting.text]]
+lang = "es-419"
+label = "Omitir texturas de logotipos"
+description = "Omite la carga de los logotipos de inicio."
+
+[[setting.text]]
+lang = "ru"
+label = "Пропустить текстуры логотипов"
+description = "Пропускает загрузку стартовых логотипов."
+
+[[setting.text]]
+lang = "pl"
+label = "Pomiń tekstury logotypów"
+description = "Pomija ładowanie logotypów startowych."
+
+[[setting.text]]
+lang = "pt"
+label = "Ignorar texturas dos logótipos"
+description = "Ignora o carregamento dos logótipos de arranque."
+
+[[setting.text]]
+lang = "pt-BR"
+label = "Pular texturas dos logotipos"
+description = "Pula o carregamento dos logotipos de inicialização."
+
+[[setting.text]]
+lang = "ja"
+label = "ロゴテクスチャをスキップ"
+description = "起動ロゴの読み込みをスキップします。"
+
+[[setting.text]]
+lang = "zh"
+label = "跳过徽标纹理"
+description = "跳过启动徽标的加载。"
+
+[[setting.text]]
+lang = "zh-Hant"
+label = "跳過徽標紋理"
+description = "跳過啟動徽標的載入。"
+
+[[setting.text]]
+lang = "ko"
+label = "로고 텍스처 건너뛰기"
+description = "시작 로고 로드를 건너뜁니다."
+
 [[setting]]
 id = "logo-wait"
 kind = "bool"
 label = "Skip splash wait"
 description = "Skip the splash-screen wait branch."
 default = true
+
+[[setting.text]]
+lang = "nl"
+label = "Sla splash-wacht over"
+description = "Slaat het wachten op het splash-scherm over."
+
+[[setting.text]]
+lang = "de"
+label = "Splash-Wartezeit überspringen"
+description = "Überspringt das Warten auf den Splash-Screen."
+
+[[setting.text]]
+lang = "fr"
+label = "Ignorer l'attente du splash"
+description = "Ignore la branche d'attente de l'écran splash."
+
+[[setting.text]]
+lang = "it"
+label = "Salta l'attesa dello splash"
+description = "Salta il ramo di attesa della schermata splash."
+
+[[setting.text]]
+lang = "es"
+label = "Omitir espera de splash"
+description = "Omite la rama de espera de la pantalla splash."
+
+[[setting.text]]
+lang = "es-419"
+label = "Omitir espera de splash"
+description = "Omite la rama de espera de la pantalla splash."
+
+[[setting.text]]
+lang = "ru"
+label = "Пропустить ожидание заставки"
+description = "Пропускает ветку ожидания экрана-заставки."
+
+[[setting.text]]
+lang = "pl"
+label = "Pomiń oczekiwanie splash"
+description = "Pomija gałąź oczekiwania ekranu powitalnego."
+
+[[setting.text]]
+lang = "pt"
+label = "Ignorar espera do splash"
+description = "Ignora o ramo de espera do ecrã splash."
+
+[[setting.text]]
+lang = "pt-BR"
+label = "Pular espera do splash"
+description = "Pula o ramo de espera da tela splash."
+
+[[setting.text]]
+lang = "ja"
+label = "スプラッシュ待機をスキップ"
+description = "スプラッシュ画面の待機分岐をスキップします。"
+
+[[setting.text]]
+lang = "zh"
+label = "跳过闪屏等待"
+description = "跳过闪屏等待分支。"
+
+[[setting.text]]
+lang = "zh-Hant"
+label = "跳過閃屏等待"
+description = "跳過閃屏等待分支。"
+
+[[setting.text]]
+lang = "ko"
+label = "스플래시 대기 건너뛰기"
+description = "스플래시 화면 대기 분기를 건너뜁니다."
 
 [[patch]]
 id = "logo-texture"
