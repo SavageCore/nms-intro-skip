@@ -1,7 +1,7 @@
 # intro_skip: skip startup logo texture loads and splash wait branch.
 [mod]
 id = "eu.savagecore.intro_skip"
-version = "0.1.0"
+version = "0.2.0"
 label = "Intro Skip"
 description = "Skips the No Man's Sky startup logos."
 enabled = true
